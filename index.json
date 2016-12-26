@@ -1,0 +1,70 @@
+{
+    "page-title": "Startpage",
+    "name": "chris",
+    "host": "internet",
+    "col-1-name": "reddit",
+    "col-1-items": [
+        {
+            "name": "dashboard",
+            "url": "https://www.reddit.com/"
+        },
+        {
+            "name": "haskell",
+            "url": "https://www.reddit.com/r/haskell"
+        },
+        {
+            "name": "python",
+            "url": "https://www.reddit.com/r/python"
+        },
+        {
+            "name": "programmerhumor",
+            "url": "https://www.reddit.com/r/ProgrammerHumor"
+        },
+        {
+            "name": "cscareerquestions",
+            "url": "https://www.reddit.com/r/cscareerquestions"
+        }
+    ],
+    "col-2-name": "programming",
+    "col-2-items": [
+        {
+            "name": "github",
+            "url": "https://github.com/"
+        },
+        {
+            "name": "gitlab",
+            "url": "https://gitlab.com/"
+        },
+        {
+            "name": "hacker news",
+            "url": "https://news.ycombinator.com/news"
+        },
+        {
+            "name": "stack overflow",
+            "url": "https://stackoverflow.com/"
+        },
+        {
+            "name": "arch linux wiki",
+            "url": "https://wiki.archlinux.org/index.php/Main_page"
+        }
+    ],
+    "col-3-name": "misc",
+    "col-3-items": [
+        {
+            "name": "google",
+            "url": "https://www.google.com/"
+        },
+        {
+            "name": "twitter",
+            "url": "https://twitter.com"
+        },
+        {
+            "name": "youtube",
+            "url": "https://www.youtube.com/"
+        },
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com"
+        }
+    ]
+}

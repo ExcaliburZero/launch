@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <!-- document metadata -->
+    <meta charset="UTF-8">
+
+    <!-- site metadata -->
+    <title>{{page-title}}</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  </head>
+
+  <body>
+    <div id="container">
+
+      <div id="searchbox">
+        <!-- name@internet ~ $ search -->
+        <h3><span class="blue">{{name}}</span>@<span class="violet">{{host}}</span> <span class="magenta">~</span> <span class="blue">$</span> <span class="green">search</span></h3>
+        <!-- search box -->
+        <input type="text" id="search" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" spellcheck="false" placeholder="" onkeypress="searchKeyPress(event)"></input>
+      </div> <!-- end search -->
+
+      <div id="links">
+        <div class="box">
+          <!-- ~ $ cd ~/general -->
+          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">{{col-1-name}}</span></h3>
+          {{#col-1-items}}
+          <a href="{{url}}">{{name}}</a>
+          {{/col-1-items}}
+        </div>
+
+        <div class="box">
+          <!-- ~ $ cd ~/reddit -->
+          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">{{col-2-name}}</span></h3>
+          {{#col-2-items}}
+          <a href="{{url}}">{{name}}</a>
+          {{/col-2-items}}
+        </div>
+
+        <div class="box">
+          <!-- ~ $ cd ~/nerd -->
+          <h3><span class="magenta">~</span> <span class="blue">$</span> <span class="orange">cd</span> ~/<span class="green">{{col-3-name}}</span></h3>
+          {{#col-3-items}}
+          <a href="{{url}}">{{name}}</a>
+          {{/col-3-items}}
+        </div>
+      </div> <!-- end links -->
+
+    </div> <!-- end container -->
+
+    <script type="text/javascript" src="assets/search.js"></script>
+
+  </body>
+
+</html>
